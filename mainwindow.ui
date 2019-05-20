@@ -43,7 +43,7 @@
    <widget class="QPushButton" name="btnOpenSerialPort">
     <property name="geometry">
      <rect>
-      <x>750</x>
+      <x>620</x>
       <y>40</y>
       <width>131</width>
       <height>61</height>
@@ -97,7 +97,7 @@
    <widget class="QPushButton" name="btnWriteData">
     <property name="geometry">
      <rect>
-      <x>710</x>
+      <x>630</x>
       <y>500</y>
       <width>191</width>
       <height>91</height>
@@ -146,6 +146,24 @@
       <width>531</width>
       <height>91</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnClearReadData">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>500</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>清空</string>
     </property>
    </widget>
   </widget>
